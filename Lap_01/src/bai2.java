@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class bai2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double r =  sc.nextDouble();
-
-        System.out.println("Chu Vi: " + (2 * r * Math.PI));
-        System.out.println("Dien Tich: " + (r * r * Math.PI) );
+        System.out.print("Nhap ban kinh: ");
+        double bk = sc.nextDouble();
+        System.out.println("Chu vi:" + (2* Math.PI*bk));
+        System.out.print("Dien tich:" + (bk* Math.PI*bk));
     }
 }
